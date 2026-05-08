@@ -1,74 +1,101 @@
-# Universities API
+Universities API
 
-A simple REST API for managing university records.  
-This API allows users to add, edit, delete, and view universities easily.
+A simple REST API for managing university records.
 
-## 🌍 Live API
-
-Base URL:
+🌍 Live API
 
 https://universities-api-m9ej.onrender.com
 
----
+📌 Main Endpoint
 
-## 📌 Features
-
-- Add a new university
-- Edit university records
-- Delete a university
-- View all universities
-- RESTful API structure
-- JSON responses
-- Hosted on Render
-
----
-
-## 🚀 Technologies Used
-
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose
-- Render
-- GitHub
-
----
-
-## 📂 API Endpoints
-
-### Get All Universities
-
-```http
-GET /universities
-```
+/api/universities
 
 Example:
 
-```bash
-https://universities-api-m9ej.onrender.com/universities
-```
+https://universities-api-m9ej.onrender.com/api/universities
+
 
 ---
 
-### Add a New University
+✨ Features
 
-```http
-POST /universities
-```
+View all universities
 
-Sample Request Body:
+Add a new university
 
-```json
-{
-  "name": "University of Ghana",
-  "country": "Ghana",
-  "city": "Accra"
-}
-```
+Edit university records
+
+Delete university records
+
+JSON API responses
+
+Hosted on Render
+
+
 
 ---
 
-### Edit a University
+🚀 Technologies Used
 
-```http
-PUT /univers
+Node.js
+
+Express.js
+
+MongoDB
+
+Render
+
+
+
+---
+
+📂 API Endpoints
+
+Get All Universities
+
+GET /api/universities
+
+
+---
+
+Add New University
+
+POST /api/universities
+
+
+---
+
+Update University
+
+PUT /api/universities/:id
+
+
+---
+
+Delete University
+
+DELETE /api/universities/:id
+
+
+---
+
+📦 Installation
+
+Clone the repository:
+
+git clone https://github.com/your-username/universities-api.git
+
+Install dependencies:
+
+npm install
+
+Run the server:
+
+npm start
+
+
+---
+
+⭐ Support
+
+If you like this project, kindly give it a star on GitHub.
